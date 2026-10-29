@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Log do programa (contém nomes de arquivos e erros)
+transcritor.log
+
+# Resultados e arquivos de trabalho
+*.wav
+*.srt
+*.pdf
+*.tmp
+
+# Segredos: o token do Hugging Face fica só na variável de ambiente HF_TOKEN
+.env
+*.token
+
+# Editor / sistema
+.vscode/
+.idea/
+Thumbs.db

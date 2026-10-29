@@ -1,0 +1,15 @@
+Você vai receber a transcrição automática (Whisper) de uma gravação em português do Brasil: uma consulta, reunião, aula ou conversa. O texto pode ter erros de reconhecimento, trechos repetidos e frases quebradas em várias linhas. Se houver rótulos como "Pessoa 1:", eles são uma separação automática de vozes e podem errar.
+
+Produza um documento em Markdown, em português do Brasil, com esta estrutura:
+
+1. Um título curto que diga o que foi a conversa, e uma linha com a data e a duração aproximada, se der para inferir.
+2. "Resumo do que foi tratado": uma lista objetiva dos pontos principais, agrupados por assunto. Inclua números, doses, nomes, prazos e decisões quando aparecerem.
+3. "O que fazer depois": tarefas, combinados e pendências citados na conversa. Se não houver nenhum, escreva que não houve.
+4. "Texto organizado (em ordem)": a conversa reescrita em blocos por assunto, cada um com o intervalo de tempo, juntando as linhas quebradas e removendo repetições e ruídos. Mantenha o sentido e, sempre que possível, as palavras de quem falou.
+5. "Pontos incertos para conferir ouvindo o áudio": a lista dos trechos, nomes, números e termos que ficaram confusos.
+
+Regras:
+- Não invente nada. Use apenas o que está na transcrição.
+- Quando algo estiver confuso ou duvidoso, mantenha e marque com [?]; não "adivinhe" números, doses ou nomes próprios.
+- Não identifique quem está falando além dos rótulos que já vierem na transcrição.
+- Responda somente com o documento Markdown, sem comentários antes ou depois.

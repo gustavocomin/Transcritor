@@ -1,0 +1,8 @@
+# Instale o PyTorch com CUDA ANTES (veja o README). Se instalar o pyannote.audio primeiro,
+# o pip pode trazer um torch só de CPU.
+faster-whisper>=1.2.1
+# versões novas do PyAV (testado: 19.x) não aceitam um argumento que o faster-whisper 1.2.1 usa; 13.1.0 é a testada
+av==13.1.0
+pyannote.audio==4.0.7
+markdown-it-py>=4.0
+numpy
