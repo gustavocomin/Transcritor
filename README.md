@@ -1,3 +1,8 @@
+<p align="center">
+  <strong>🌐 Idioma / Language:</strong>
+  🇧🇷 <strong>Português</strong> | <a href="README.en.md">🇺🇸 English</a>
+</p>
+
 # Transcritor
 
 Transcrição de áudio e vídeo em português com o [Whisper](https://github.com/SYSTRAN/faster-whisper), rodando **localmente** na sua placa de vídeo. O programa extrai o áudio de um vídeo, transcreve, separa quem fala e gera um resumo em PDF com IA, tudo por uma interface simples para Windows.
